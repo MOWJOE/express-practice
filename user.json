@@ -1,0 +1,16 @@
+[{
+    "firstName":"John",
+    "lastName": "Doe",
+    "age":25
+},{
+    "firstName":"Mary",
+    "lastName": "Yeboah",
+    "age": 23
+},
+{
+    "firstName":"Sandy",
+    "lastName":"Nunoo",
+    "age":12
+}
+
+]
