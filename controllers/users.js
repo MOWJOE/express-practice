@@ -2,7 +2,7 @@ import { v4 as userID } from "uuid";
 userID();
 
 let users = [
-	data: [
+	
 	{
 		firstName: "John",
 		lastName: "Doe",
@@ -12,8 +12,7 @@ let users = [
 		firstName: "Jane",
 		lastName: "Doe",
 		age: 24,
-	}]
-];
+	}];
 
 export const createUser = (req, res) => {
 	const user = req.body;
