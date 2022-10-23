@@ -2,16 +2,16 @@ import { v4 as userID } from "uuid";
 userID();
 
 let users = [
-	// {
-	// 	firstName: "John",
-	// 	lastName: "Doe",
-	// 	age: 25,
-	// },
-	// {
-	// 	firstName: "Jane",
-	// 	lastName: "Doe",
-	// 	age: 24,
-	// },
+	{
+		firstName: "John",
+		lastName: "Doe",
+		age: 25,
+	},
+	{
+		firstName: "Jane",
+		lastName: "Doe",
+		age: 24,
+	},
 ];
 
 export const createUser = (req, res) => {
